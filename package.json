@@ -1,0 +1,47 @@
+{
+  "name": "nextjs-starter",
+  "license": "UNLICENSED",
+  "engines": {
+    "npm": ">=5",
+    "node": ">=8"
+  },
+  "scripts": {
+    "dev": "ENV=dev nodemon -w server.js server.js",
+    "staging": "ENV=staging nodemon -w server.js server.js",
+    "build": "next build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-typescript": "^0.0.10",
+    "axios": "^0.17.1",
+    "babel-plugin-styled-components": "^1.5.0",
+    "express": "^4.16.2",
+    "next": "^5.0.1-canary.16",
+    "next-redux-saga": "^2.0.1",
+    "next-redux-wrapper": "^1.3.5",
+    "next-routes": "^1.3.0",
+    "polished": "^1.9.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-redux-loading-bar": "^3.1.1",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-form": "^7.2.3",
+    "redux-saga": "^0.16.0",
+    "styled-components": "^3.1.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.98",
+    "@types/next": "^2.4.6",
+    "@types/next-redux-wrapper": "^1.3.6",
+    "@types/react": "^16.0.35",
+    "@types/react-redux": "^5.0.14",
+    "@types/redux": "^3.6.0",
+    "@types/redux-form": "^7.0.14",
+    "husky": "^0.14.3",
+    "lint-staged": "3.6.1",
+    "tslint": "^5.8.0",
+    "typescript": "^2.7.2"
+  }
+}
